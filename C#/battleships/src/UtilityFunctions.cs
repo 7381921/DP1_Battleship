@@ -269,7 +269,7 @@ static class UtilityFunctions
 		Bitmap imgObj = default(Bitmap);
 
 		imgObj = GameResources.GameImage(image);
-		imgObj.SetCellDetails(40, 40, 3, 3, 7);
+		imgObj.SetCellDetails(40, 40, 1, 1, 7);
 
 		AnimationScript animation = default(AnimationScript);
 		animation = SwinGame.LoadAnimationScript("splash.txt");
